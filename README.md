@@ -10,6 +10,7 @@ Tecnologias escolhidas:
 - Framework de testes automatizados: Selenium WebDriver
 - Framework de testes automatizados: NUnit
 - Padrão de escrita de código de testes: PageObjects
+- Instalar o NUnit Console(para o SO)
 
 ### Arquitetura do projeto:
 
@@ -69,3 +70,15 @@ Validar resultados de teste
 * Clique com o botão direito e clique em "Run Selected Tests"
 * Após executar: Verde -> Assert validado com sucesso
 * Após executar: Vermelho -> Alguma ação não realizada ou Assert não validado
+
+### 6. Executar os testes via NUnit Console
+* Buildar o projeto e decorar o caminho
+* Abrir o CMD do Windows e acessar a pasta do projeto, especificamente a pasta Debug.
+C:\Users\COMPUTADOR\Documents\PASTA\PROJETO\SOLUTION\bin\Debug>
+* Encontrar o caminho de instalação do NUnit Console e colocar no CMD juntamente com a dll da Solution
+"C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.Basics.dll
+
+* No final o console ficará:
+C:\Users\COMPUTADOR\Documents\PASTA\PROJETO\SOLUTION\bin\Debug> "C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.Basics.dll
+
+* Copiar o caminho e criar um .bat executável
