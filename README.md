@@ -76,9 +76,9 @@ Validar resultados de teste
 * Abrir o CMD do Windows e acessar a pasta do projeto, especificamente a pasta Debug.
 C:\Users\COMPUTADOR\Documents\PASTA\PROJETO\SOLUTION\bin\Debug>
 * Encontrar o caminho de instalação do NUnit Console e colocar no CMD juntamente com a dll da Solution
-"C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.Basics.dll
+"C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.dll
 
 * No final o console ficará:
-C:\Users\COMPUTADOR\Documents\PASTA\PROJETO\SOLUTION\bin\Debug> "C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.Basics.dll
+C:\Users\COMPUTADOR\Documents\PASTA\PROJETO\SOLUTION\bin\Debug> "C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe" SOLUTION.dll
 
 * Copiar o caminho e criar um .bat executável
